@@ -1,0 +1,64 @@
+
+<div class="nav_container">
+  <!-- main_bar -->
+<div class="main_bar">
+  <nav class="navbar navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand"><img src="../assets/image/hamburger.png" alt="" width="30px" class="mr-3 d-hamburger"> Welcome Patient 
+      </a>
+      <a class="navbar-brand hamburger float-right" (click)="toggle()"><img src="../assets/hamburger.png" alt="" width="30px" class="mr-3"> 
+      </a>
+    </div>
+  </nav>
+  <div class="Will_ony_lg_device">
+    <app-grid-row></app-grid-row>
+  </div>
+  <h6 class="date app_Bottom_margin">Today, Monday 27, 2020</h6>
+  <app-dr-available></app-dr-available>
+
+<div class="container-fluid app_container_margin">
+  <div class="row">
+      <div class="col-md-6 app_Bottom_margin">         
+        <app-card-row></app-card-row>
+      </div>
+      <div class="col-md-6 app_Bottom_margin">         
+        <app-medication></app-medication>
+      </div>
+      <div class="col-md-6 app_Bottom_margin">
+        <app-messages></app-messages>
+      </div>
+      <div class="col-md-6 app_Bottom_margin">
+        <app-vitals></app-vitals>
+      </div>
+      <div class="col-md-6 app_Bottom_margin">
+        <app-reminder></app-reminder>
+      </div>
+      <div class="col-md-6 app_Bottom_margin">
+        <app-bill></app-bill>
+      </div>
+      <div class="col-md-6 app_Bottom_margin">
+        <app-diagnosis></app-diagnosis>
+      </div>
+      <div class="col-md-6 app_Bottom_margin">
+        <app-health-records></app-health-records>
+      </div>  
+      <div class="col-md-6 app_Bottom_margin">
+        <app-upload-records></app-upload-records>
+      </div>  
+      <div class="col-md-6 app_Bottom_margin">
+        <app-follow-up></app-follow-up>
+      </div>  
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+</div>
+<!-- side_nav -->
+<div *ngIf="show" class="side_nav app_row_shadow">
+<app-grid-row></app-grid-row>
+</div>
+<div *ngIf="!show"></div>
+</div>
+
+
+

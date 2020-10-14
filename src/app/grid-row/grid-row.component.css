@@ -1,0 +1,51 @@
+.row_card {
+  background-color: white;
+  display: inline-block;
+  width: 160px;
+  border-radius: 6px;
+}
+.row_card_ico {
+  margin: auto;
+  display: block;
+  transition: all;
+  transition-duration: 400ms;
+  cursor: pointer;
+}
+.row_card_ico:hover {
+  transform: scale(1.2, 1.2);
+}
+.row_card span {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #767272;
+  font-size: 14px;
+}
+.date {
+  text-align: center;
+}
+/* App Breakpoints */
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+  .app_row_shadow {
+    display: block;
+    margin: auto;
+  }
+  .row_card {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1400px) {
+}

@@ -1,0 +1,60 @@
+.app_card {
+  background-color: white;
+  border-radius: 8px;
+}
+.position-relative h6 {
+  position: absolute;
+  top: 3px;
+  left: 60px;
+}
+.delete {
+  padding: 7px;
+  background-color: #db2020;
+  color: white;
+  border-radius: 50%;
+}
+.more_vert {
+  padding: 9px;
+}
+.right_header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/*  */
+.app_card_main {
+  position: relative;
+  border-bottom: 1px solid rgb(231, 229, 229);
+  border-top: 1px solid rgb(231, 229, 229);
+}
+.app_card_main h6 {
+  position: absolute;
+  left: 83px;
+  top: 23px;
+}
+.drName {
+  font-size: 18px;
+  font-weight: 700;
+}
+.type {
+  color: #6574cf;
+  font-size: 14px;
+}
+.video {
+  color: #6574cf;
+  font-weight: 600;
+  font-size: 14px;
+}
+.time {
+  float: right;
+  color: #6574cf;
+  font-weight: 600;
+  font-size: 14px;
+}
+.app_card_footer {
+  border-top: 1px solid red;
+}
+.app_card_dis span {
+  font-size: 15px;
+  font-weight: 600;
+}

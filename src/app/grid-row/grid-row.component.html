@@ -1,0 +1,10 @@
+<div class="app_Bottom_margin grid_box">
+
+<ng-container *ngFor="let card of navRow">  
+    <div class="row_card mx-1 py-2 app_row_shadow">
+        <img [src]="card.img" class="img-fluid row_card_ico" width="60px" alt="">
+        <span>{{card.name}}</span>
+    </div>
+</ng-container>
+
+</div>

@@ -1,0 +1,106 @@
+.app_card {
+  background-color: white;
+  border-radius: 8px;
+}
+.position-relative h6 {
+  position: absolute;
+  top: 3px;
+  left: 60px;
+}
+.delete {
+  padding: 7px;
+  background-color: #db2020;
+  color: white;
+  border-radius: 50%;
+}
+.more_vert {
+  padding: 9px;
+}
+.right_header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/*  */
+.app_card_main {
+  position: relative;
+  border-top: 1px solid rgb(231, 229, 229);
+  min-height: 255px;
+}
+.app_card_main h6 {
+  text-align: start;
+}
+.drName {
+  font-size: 21px;
+  font-weight: 700;
+}
+.type {
+  color: #6574cf;
+}
+.video {
+  color: #6574cf;
+  font-weight: 600;
+}
+.time {
+  float: right;
+  color: #6574cf;
+  font-weight: 600;
+}
+.app_card_footer {
+  border-top: 1px solid red;
+}
+.app_card_dis span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.card_date {
+  font-weight: 700;
+  color: rgb(100, 98, 98);
+}
+.app_card_main_inner {
+  width: 450px;
+}
+.list span {
+  color: gray;
+}
+.quantity {
+  font-weight: 700;
+}
+.list button {
+  background-color: #99a3e0;
+  font-weight: 700;
+}
+.list button:hover {
+  background-color: #6574cf;
+}
+.reminder_list div .date {
+  float: right;
+}
+.reminder_list{
+  padding: 0px 10px 0px 10px;
+}
+.reminder_list div {
+  margin-top: 17px;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(110, 108, 108);
+}
+.reminder_list div .material-icons {
+  color: #6574cf;
+}
+.reminder_list div .date {
+  font-size: 16px;
+  font-weight: 500;
+}
+.card_custom_btn {
+  width: 60px;
+  font-weight: 600;
+}
+.reminder_list div .price {
+  margin-left: 12px;
+  font-weight: 500;
+}
+.nameOfDr {
+  display: inline-block;
+  min-width: 230px;
+}
